@@ -1,0 +1,12 @@
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.CustomException\bin\Debug\WordMemory.CustomException.dll
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.CustomException\bin\Debug\WordMemory.CustomException.pdb
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.CustomException\obj\Debug\WordMemory.CustomException.csprojAssemblyReference.cache
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.CustomException\obj\Debug\WordMemory.CustomException.csproj.CoreCompileInputs.cache
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.CustomException\obj\Debug\WordMemory.CustomException.dll
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.CustomException\obj\Debug\WordMemory.CustomException.pdb
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.CustomException\bin\Debug\WordMemory.CustomException.dll
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.CustomException\bin\Debug\WordMemory.CustomException.pdb
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.CustomException\obj\Debug\WordMemory.CustomException.csprojAssemblyReference.cache
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.CustomException\obj\Debug\WordMemory.CustomException.csproj.CoreCompileInputs.cache
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.CustomException\obj\Debug\WordMemory.CustomException.dll
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.CustomException\obj\Debug\WordMemory.CustomException.pdb

@@ -1,0 +1,12 @@
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.DTO\bin\Debug\WordMemory.DTO.dll
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.DTO\bin\Debug\WordMemory.DTO.pdb
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.DTO\obj\Debug\WordMemory.DTO.csprojAssemblyReference.cache
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.DTO\obj\Debug\WordMemory.DTO.csproj.CoreCompileInputs.cache
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.DTO\obj\Debug\WordMemory.DTO.dll
+C:\Users\eneso\Source\Workspaces\WordMemory2\WordMemory\WordMemory.DTO\obj\Debug\WordMemory.DTO.pdb
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.DTO\bin\Debug\WordMemory.DTO.dll
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.DTO\bin\Debug\WordMemory.DTO.pdb
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.DTO\obj\Debug\WordMemory.DTO.csprojAssemblyReference.cache
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.DTO\obj\Debug\WordMemory.DTO.csproj.CoreCompileInputs.cache
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.DTO\obj\Debug\WordMemory.DTO.dll
+C:\Users\eneso\Desktop\WordMemory2\WordMemory\WordMemory.DTO\obj\Debug\WordMemory.DTO.pdb

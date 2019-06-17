@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordMemory.Model", "WordMemory.Model\WordMemory.Model.csproj", "{CC600490-39FC-4BD3-B4E5-D2AC7B57194C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordMemory.DAL", "WordMemory.DAL\WordMemory.DAL.csproj", "{DA738166-2310-46D2-9CD3-25280CE7A8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordMemory.BLL", "WordMemory.BLL\WordMemory.BLL.csproj", "{807E9929-CA4D-4967-B6A9-2771D37FB4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordMemory.CustomException", "WordMemory.CustomException\WordMemory.CustomException.csproj", "{2AEFF7FE-0044-4EE9-9AD0-01E15AEE1302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordMemory.UI.WinForm", "WordMemory.UI.WinForm\WordMemory.UI.WinForm.csproj", "{2D0E339B-B144-4DD3-929D-126DE301E288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordMemory.DTO", "WordMemory.DTO\WordMemory.DTO.csproj", "{2565A0C2-0F3E-49E0-AD19-FD2EBE17AE1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC600490-39FC-4BD3-B4E5-D2AC7B57194C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC600490-39FC-4BD3-B4E5-D2AC7B57194C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC600490-39FC-4BD3-B4E5-D2AC7B57194C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC600490-39FC-4BD3-B4E5-D2AC7B57194C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA738166-2310-46D2-9CD3-25280CE7A8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA738166-2310-46D2-9CD3-25280CE7A8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA738166-2310-46D2-9CD3-25280CE7A8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA738166-2310-46D2-9CD3-25280CE7A8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{807E9929-CA4D-4967-B6A9-2771D37FB4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807E9929-CA4D-4967-B6A9-2771D37FB4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807E9929-CA4D-4967-B6A9-2771D37FB4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807E9929-CA4D-4967-B6A9-2771D37FB4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEFF7FE-0044-4EE9-9AD0-01E15AEE1302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEFF7FE-0044-4EE9-9AD0-01E15AEE1302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEFF7FE-0044-4EE9-9AD0-01E15AEE1302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEFF7FE-0044-4EE9-9AD0-01E15AEE1302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0E339B-B144-4DD3-929D-126DE301E288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0E339B-B144-4DD3-929D-126DE301E288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0E339B-B144-4DD3-929D-126DE301E288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0E339B-B144-4DD3-929D-126DE301E288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2565A0C2-0F3E-49E0-AD19-FD2EBE17AE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2565A0C2-0F3E-49E0-AD19-FD2EBE17AE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2565A0C2-0F3E-49E0-AD19-FD2EBE17AE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2565A0C2-0F3E-49E0-AD19-FD2EBE17AE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2EA7922-F4CD-49FC-B9B3-E3B6E0A0926A}
+	EndGlobalSection
+EndGlobal

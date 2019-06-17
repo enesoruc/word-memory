@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D0E339B-B144-4DD3-929D-126DE301E288}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WordMemory.UI.WinForm</RootNamespace>
+    <AssemblyName>WordMemory.UI.WinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAddWordToPool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddWordToPool.designer.cs">
+      <DependentUpon>frmAddWordToPool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminAddNewWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminAddNewWord.designer.cs">
+      <DependentUpon>frmAdminAddNewWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminChangeWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminChangeWord.Designer.cs">
+      <DependentUpon>frmAdminChangeWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminWordList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminWordList.designer.cs">
+      <DependentUpon>frmAdminWordList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminViewUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminViewUsers.designer.cs">
+      <DependentUpon>frmAdminViewUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateNewWordPool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateNewWordPool.Designer.cs">
+      <DependentUpon>frmCreateNewWordPool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFinancialStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFinancialStatistics.Designer.cs">
+      <DependentUpon>FrmFinancialStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayment.designer.cs">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPractice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPractice.designer.cs">
+      <DependentUpon>frmPractice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegister.designer.cs">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser.designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserChangePassword.designer.cs">
+      <DependentUpon>frmUserChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserChangePersonalInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserChangePersonalInfo.designer.cs">
+      <DependentUpon>frmUserChangePersonalInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserDeleteAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserDeleteAccount.Designer.cs">
+      <DependentUpon>frmUserDeleteAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserPage.Designer.cs">
+      <DependentUpon>frmUserPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserPractice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserPractice.designer.cs">
+      <DependentUpon>frmUserPractice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMyWordPools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMyWordPools.designer.cs">
+      <DependentUpon>frmMyWordPools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserStatistics.Designer.cs">
+      <DependentUpon>frmUserStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWordStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWordStatistics.Designer.cs">
+      <DependentUpon>frmWordStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddWordToPool.resx">
+      <DependentUpon>frmAddWordToPool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminAddNewWord.resx">
+      <DependentUpon>frmAdminAddNewWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminChangeWord.resx">
+      <DependentUpon>frmAdminChangeWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminWordList.resx">
+      <DependentUpon>frmAdminWordList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminViewUsers.resx">
+      <DependentUpon>frmAdminViewUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateNewWordPool.resx">
+      <DependentUpon>frmCreateNewWordPool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayment.resx">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPractice.resx">
+      <DependentUpon>frmPractice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.resx">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserChangePassword.resx">
+      <DependentUpon>frmUserChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserChangePersonalInfo.resx">
+      <DependentUpon>frmUserChangePersonalInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserDeleteAccount.resx">
+      <DependentUpon>frmUserDeleteAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserPage.resx">
+      <DependentUpon>frmUserPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserPractice.resx">
+      <DependentUpon>frmUserPractice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMyWordPools.resx">
+      <DependentUpon>frmMyWordPools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserStatistics.resx">
+      <DependentUpon>frmUserStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWordStatistics.resx">
+      <DependentUpon>frmWordStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WordMemory.BLL\WordMemory.BLL.csproj">
+      <Project>{807e9929-ca4d-4967-b6a9-2771d37fb4f7}</Project>
+      <Name>WordMemory.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WordMemory.CustomException\WordMemory.CustomException.csproj">
+      <Project>{2AEFF7FE-0044-4EE9-9AD0-01E15AEE1302}</Project>
+      <Name>WordMemory.CustomException</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WordMemory.DTO\WordMemory.DTO.csproj">
+      <Project>{2565A0C2-0F3E-49E0-AD19-FD2EBE17AE1A}</Project>
+      <Name>WordMemory.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WordMemory.Model\WordMemory.Model.csproj">
+      <Project>{cc600490-39fc-4bd3-b4e5-d2ac7b57194c}</Project>
+      <Name>WordMemory.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Başlıksız-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Başlıksız-31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGİN2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mywordpool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\createNewPool1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\createNewPool2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\practice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userPractice.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
